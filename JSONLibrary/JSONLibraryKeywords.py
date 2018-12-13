@@ -9,8 +9,8 @@ except:
 
 import os.path
 import json
-from jsonpath_rw import Index, Fields
-from jsonpath_rw_ext import parse
+from jsonpath_ng import Index, Fields
+from jsonpath_ng.ext import parse
 
 __author__ = 'Traitanit Huangsri'
 __email__ = 'traitanit.hua@gmail.com'
